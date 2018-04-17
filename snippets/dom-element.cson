@@ -1,0 +1,68 @@
+'.source.js':
+
+  "attributes-> JS DOM":
+    "prefix": "jsdel-attributes"
+    "body": """
+    attributes
+    """
+  "classList-> JS DOM":
+    "prefix": "jsdel-classList"
+    "body": """
+    classList = '$1'
+    """
+  "classList.add()-> JS DOM":
+    "prefix": "jsdel-classList-add"
+    "body": """
+    classList.add('$1')
+    """
+  "classList.remove()-> JS DOM":
+    "prefix": "jsdel-classList-remove"
+    "body": """
+    classList.remove('$1')
+    """
+  "classList.toggle()-> JS DOM":
+    "prefix": "jsdel-classList-toggle"
+    "body": """
+    classList.toggle('$1')
+    """
+  "classList.replace()-> JS DOM":
+    "prefix": "jsdel-classList-replace"
+    "body": """
+    classList.replace('old_class','new_class')
+    """
+  "classList.contains()-> JS DOM":
+    "prefix": "jsdel-classList-contains"
+    "body": """
+    classList.contains('$1')
+    """
+
+  "className-> JS DOM":
+    "prefix": "jsdel-className"
+    "body": """
+    className
+    """
+  "id-> JS DOM":
+    "prefix": "jsdel-id"
+    "body": """
+    id = '$1'
+    """
+  "innerHTML-> JS DOM":
+    "prefix": "jsdel-innerHTML"
+    "body": """
+    innerHTML = '$1'
+    """
+  "outterHTML-> JS DOM":
+    "prefix": "jsdel-outterHTML"
+    "body": """
+    outterHTML = '$1'
+    """
+  "appendChild-> JS DOM":
+    "prefix": "jsdel-appendChild"
+    "body": """
+    appendChild($1)
+    """
+  "textContent-> JS DOM":
+    "prefix": "jsdel-textContent"
+    "body": """
+    textContent = '$1'
+    """

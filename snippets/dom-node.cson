@@ -1,0 +1,62 @@
+'.source.js':
+
+  "childNodes-> JS DOM":
+    "prefix": "jsdn-childNodes"
+    "body": """
+    childNodes
+    """
+  "childNodes[i]-> JS DOM":
+    "prefix": "jsdn-childNode-array"
+    "body": """
+    childNodes[$1]
+    """
+  "parentNode-> JS DOM":
+    "prefix": "jsdn-parentNode"
+    "body": """
+    parentNode
+    """
+  "nextSibling-> JS DOM":
+    "prefix": "jsdn-nextSibling"
+    "body": """
+    nextSibling
+    """
+  "previousSibling-> JS DOM":
+    "prefix": "jsdn-previousSibling"
+    "body": """
+    previousSibling
+    """
+  "nextElementSibling-> JS DOM":
+    "prefix": "jsdn-nextElementSibling"
+    "body": """
+    nextElementSibling
+    """
+  "previousElementSibling-> JS DOM":
+    "prefix": "jsdn-previousElementSibling"
+    "body": """
+    previousElementSibling
+    """
+  "nodeName-> JS DOM":
+    "prefix": "jsdn-nodeName"
+    "body": """
+    nodeName
+    """
+  "nodeType-> JS DOM":
+    "prefix": "jsdn-nodeType"
+    "body": """
+    nodeType
+    """
+  "nodeValue-> JS DOM":
+    "prefix": "jsdn-nodeValue"
+    "body": """
+    nodeValue
+    """
+  "cloneNode-> JS DOM":
+    "prefix": "jsdn-cloneNode"
+    "body": """
+    cloneNode(true)
+    """
+  "insertBefore-> JS DOM":
+    "prefix": "jsdn-insertBefore"
+    "body": """
+    insertBefore(new,selected)
+    """

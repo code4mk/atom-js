@@ -1,0 +1,130 @@
+'.source.js':
+
+  "document-> JS DOM":
+    "prefix": "jsd-document"
+    "body": """
+    document
+    """
+  "all-> JS DOM":
+    "prefix": "jsd-all"
+    "body": """
+    document.all
+    """
+  "body-> JS DOM":
+    "prefix": "jsd-body"
+    "body": """
+    document.body
+    """
+  "characterSet-> JS DOM":
+    "prefix": "jsd-characterset"
+    "body": """
+    document.characterSet
+    """
+  "charset-> JS DOM":
+    "prefix": "jsd-charset"
+    "body": """
+    document.charset
+    """
+  "compatMode-> JS DOM":
+    "prefix": "jsd-compatMode"
+    "body": """
+    document.compatMode
+    """
+  "contentType-> JS DOM":
+    "prefix": "jsd-contentType"
+    "body": """
+    document.contentType
+    """
+
+  "docType-> JS DOM":
+    "prefix": "jsd-docType"
+    "body": """
+    document.docType
+    """
+  "domain-> JS DOM":
+    "prefix": "jsd-domain"
+    "body": """
+    document.domain
+    """
+  "documentURI.-> JS DOM":
+    "prefix": "jsd-documentURI"
+    "body": """
+    document.documentURI
+    """
+  "documentElement-> JS DOM":
+    "prefix": "jsd-documentElement"
+    "body": """
+    document.documentElement
+    """
+  "forms-> JS DOM":
+    "prefix": "jsd-forms"
+    "body": """
+    document.forms
+    """
+  "head-> JS DOM":
+    "prefix": "jsd-head"
+    "body": """
+    document.head
+    """
+  "implementation-> JS DOM":
+    "prefix": "jsd-implementation"
+    "body": """
+    document.implementation
+    """
+  "images-> JS DOM":
+    "prefix": "jsd-images"
+    "body": """
+    document.images
+    """
+  "scripts-> JS DOM":
+    "prefix": "jsd-scripts"
+    "body": """
+    document.scripts
+    """
+  "title-> JS DOM":
+    "prefix": "jsd-title"
+    "body": """
+    document.title
+    """
+  "URL-> JS DOM":
+    "prefix": "jsd-URL"
+    "body": """
+    document.URL
+    """
+
+  "createComment-> JS DOM":
+    "prefix": "jsd-createComment"
+    "body": """
+    document.createComment('$1')
+    """
+  "createElement-> JS DOM":
+    "prefix": "jsd-createElement"
+    "body": """
+    document.createElement('$1')
+    """
+  "createTextNode-> JS DOM":
+    "prefix": "jsd-createTextNode"
+    "body": """
+    document.createTextNode
+    """
+
+  "getElementById-> JS DOM":
+    "prefix": "jsd-getElementById"
+    "body": """
+    document.getElementById('$1');
+    """
+  "getElementsByClassName-> JS DOM":
+    "prefix": "jsd-getElementsByClassName"
+    "body": """
+    document.getElementsByClassName('$1')
+    """
+  "getElementsByTagName-> JS DOM":
+    "prefix": "jsd-getElementsByTagName"
+    "body": """
+    document.getElementsByTagName('$1')
+    """
+  "querySelector-> JS DOM":
+    "prefix": "jsd-querySelector"
+    "body": """
+    document.querySelector('$1')
+    """

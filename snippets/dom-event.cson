@@ -1,0 +1,9 @@
+'.source.js':
+
+  "addEventListener-> JS DOM":
+    "prefix": "jsde-addEventListener"
+    "body": """
+    addEventListener('$1', (e) => {
+      $2
+    });
+    """

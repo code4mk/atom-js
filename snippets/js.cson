@@ -1,0 +1,23 @@
+'.source.js':
+
+  "console-> JS DOM":
+    "prefix": "js-console"
+    "body": """
+    console.log($1)
+    """
+
+  "var-> JS DOM":
+    "prefix": "js-var"
+    "body": """
+    var $1 = $2
+    """
+  "let-> JS DOM":
+    "prefix": "js-let"
+    "body": """
+    let $1 = $2
+    """
+  "const-> JS DOM":
+    "prefix": "js-const"
+    "body": """
+    const $1 = $2
+    """
