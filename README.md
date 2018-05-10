@@ -1,6 +1,6 @@
 <p align="center" ><img src="img/js.jpg"></p>
 
-# JavaScript Snippets Latest
+`JavaScript Snippets Latest`
 
 Now play with JS , Atom JavaScript snippets.
 
