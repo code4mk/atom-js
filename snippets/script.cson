@@ -1,0 +1,12 @@
+'.text.html.basic':
+
+    "external script-> JS Basic":
+      "prefix": "js-script"
+      "body": """
+      <script src="$1"></script>
+      """
+    "external css-> JS Basic":
+      "prefix": "css-link"
+      "body": """
+      <link rel="stylesheet" href="$1">
+      """

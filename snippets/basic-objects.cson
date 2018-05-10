@@ -1,0 +1,78 @@
+'.source.js':
+
+ "assign -> JS Objects":
+   "prefix": "jsob-assign"
+   "body": """
+   Object.assign({},$1)
+   """
+  "entries -> JS Objects":
+    "prefix": "jsob-entries"
+    "body": """
+    Object.entries($1)
+    """
+  "freeze -> JS Objects":
+    "prefix": "jsob-freeze"
+    "body": """
+    Object.freeze($1)
+    """
+  "getOwnPropertyDescriptor -> JS Objects":
+    "prefix": "jsob-getOwnPropertyDescriptor"
+    "body": """
+    Object.getOwnPropertyDescriptor($1,$2)
+    """
+  "getOwnPropertyDescriptors -> JS Objects":
+    "prefix": "jsob-getOwnPropertyDescriptors"
+    "body": """
+    Object.getOwnPropertyDescriptors($1)
+    """
+
+  "getOwnPropertyNames -> JS Objects":
+    "prefix": "jsob-getOwnPropertyNames"
+    "body": """
+    Object.getOwnPropertyNames($1)
+    """
+  "getPrototypeOf -> JS Objects":
+    "prefix": "jsob-getPrototypeOf"
+    "body": """
+    Object.getPrototypeOf($1)
+    """
+  "is -> JS Objects":
+    "prefix": "jsob-is"
+    "body": """
+    Object.is($1,$2)
+    """
+  "isExtensible -> JS Objects":
+    "prefix": "jsob-Extensible"
+    "body": """
+    Object.Extensible($1)
+    """
+  "preventExtensions -> JS Objects":
+    "prefix": "jsob-preventExtensions"
+    "body": """
+    Object.preventExtensions($1)
+    """
+  "isFrozen -> JS Objects":
+    "prefix": "jsob-isFrozen"
+    "body": """
+    Object.isFrozen($1)
+    """
+  "seal -> JS Objects":
+    "prefix": "jsob-seal"
+    "body": """
+    Object.seal($1)
+    """
+  "isSealed -> JS Objects":
+    "prefix": "jsob-isSeal"
+    "body": """
+    Object.isSealed($1)
+    """
+  "keys -> JS Objects":
+    "prefix": "jsob-keys"
+    "body": """
+    Object.keys($1)
+    """
+  "values -> JS Objects":
+    "prefix": "jsob-values"
+    "body": """
+    Object.values($1)
+    """

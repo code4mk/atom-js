@@ -1,0 +1,39 @@
+'.source.js':
+
+
+  "new Function -> JS Function":
+    "prefix": "jsfn-new"
+    "body": """
+    new Function('$1','return ');
+    """
+  "function default -> JS Function":
+    "prefix": "jsfn-default"
+    "body": """
+    function functionName$1 () {
+      $2
+    }
+    """
+  "function default 2 -> JS Function":
+    "prefix": "jsfn-default2"
+    "body": """
+    functionName$1 = function() {
+      $2
+    }
+    """
+  "es6 Function -> JS Function":
+    "prefix": "jsfn-es6"
+    "body": """
+    functionName$1 = () => {
+      $2
+    }
+    """
+  "Function name -> JS Function":
+    "prefix": "jsfn-name"
+    "body": """
+    name
+    """
+  "Function length -> JS Function":
+    "prefix": "jsfn-length"
+    "body": """
+    length
+    """

@@ -1,0 +1,12 @@
+'.source.js':
+
+    "style-> JS DOM":
+      "prefix": "jsde-style"
+      "body": """
+      style.
+      """
+    "cssText-> JS DOM":
+      "prefix": "jsde-cssText"
+      "body": """
+      style.cssText = $1
+      """

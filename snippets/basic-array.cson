@@ -1,0 +1,163 @@
+'.source.js':
+
+
+  "new Array-> JS Array":
+    "prefix": "jsar-new"
+    "body": """
+    new Array($1);
+    """
+  "[]-> JS Array":
+    "prefix": "jsar"
+    "body": """
+    [$1]
+    """
+  "isArray-> JS Array":
+    "prefix": "jsar-isArray"
+    "body": """
+    Array.isArray($1);
+    """
+  "length-> JS Array":
+    "prefix": "jsar-length"
+    "body": """
+    length
+    """
+  "from-> JS Array":
+    "prefix": "jsar-from"
+    "body": """
+    Array.from($1)
+    """
+  "of-> JS Array":
+    "prefix": "jsar-of"
+    "body": """
+    Array.of($1)
+    """
+  "concat-> JS Array":
+    "prefix": "jsar-concat"
+    "body": """
+    $1.concat($2)
+    """
+  "copyWithin-> JS Array":
+    "prefix": "jsar-copyWithin"
+    "body": """
+    $1.copyWithin($2)
+    """
+  "entries-> JS Array":
+    "prefix": "jsar-entries"
+    "body": """
+    entries()
+    """
+  "every-> JS Array":
+    "prefix": "jsar-every"
+    "body": """
+    every($1)
+    """
+  "fill-> JS Array":
+    "prefix": "jsar-fill"
+    "body": """
+    fill($1)
+    """
+  "filter-> JS Array":
+    "prefix": "jsar-filter"
+    "body": """
+    filter($1)
+    """
+  "find-> JS Array":
+    "prefix": "jsar-find"
+    "body": """
+    find($1)
+    """
+  "finIndex-> JS Array":
+    "prefix": "jsar-finIndex"
+    "body": """
+    finIndex($1)
+    """
+  "forEach-> JS Array":
+    "prefix": "jsar-forEach"
+    "body": """
+    forEach($1)
+    """
+  "includes-> JS Array":
+    "prefix": "jsar-includes"
+    "body": """
+    includes($1)
+    """
+  "indexOf-> JS Array":
+    "prefix": "jsar-indexOf"
+    "body": """
+    indexOf($1)
+    """
+  "join-> JS Array":
+    "prefix": "jsar-join"
+    "body": """
+    join($1)
+    """
+  "keys-> JS Array":
+    "prefix": "jsar-keys"
+    "body": """
+    keys()
+    """
+  "lastIndexOf-> JS Array":
+    "prefix": "jsar-lastIndexOf"
+    "body": """
+    lastIndexOf($1)
+    """
+  "map-> JS Array":
+    "prefix": "jsar-map"
+    "body": """
+    map($1)
+    """
+  "pop-> JS Array":
+    "prefix": "jsar-pop"
+    "body": """
+    pop()
+    """
+  "push-> JS Array":
+    "prefix": "jsar-push"
+    "body": """
+    push($1)
+    """
+  "reverse-> JS Array":
+    "prefix": "jsar-reverse"
+    "body": """
+    reverse()
+    """
+  "shift-> JS Array":
+    "prefix": "jsar-shift"
+    "body": """
+    shift()
+    """
+  "slice-> JS Array":
+    "prefix": "jsar-slice"
+    "body": """
+    slice($1)
+    """
+  "some-> JS Array":
+    "prefix": "jsar-some"
+    "body": """
+    some($1)
+    """
+  "sort-> JS Array":
+    "prefix": "jsar-sort"
+    "body": """
+    sort($1)
+    """
+  "splice-> JS Array":
+    "prefix": "jsar-splice"
+    "body": """
+    splice($1)
+    """
+  "unshift-> JS Array":
+    "prefix": "jsar-unshift"
+    "body": """
+    unshift($1)
+    """
+  "values-> JS Array":
+    "prefix": "jsar-values"
+    "body": """
+    values($1)
+    """
+  "toString-> JS Array":
+    "prefix": "jsar-toString"
+    "body": """
+    toString($1)
+    """

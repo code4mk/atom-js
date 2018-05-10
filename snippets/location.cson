@@ -1,0 +1,101 @@
+'.source.js':
+
+  "location-> JS Location":
+    "prefix": "jslc-location"
+    "body": """
+    document.location
+    """
+  "href-> JS Location":
+    "prefix": "jslc-href"
+    "body": """
+    document.location.href
+    """
+  "protocol-> JS Location":
+    "prefix": "jslc-protocol"
+    "body": """
+    document.location.protocol
+    """
+  "host-> JS Location":
+    "prefix": "jslc-host"
+    "body": """
+    document.location.host
+    """
+  "hostname-> JS Location":
+    "prefix": "jslc-hostname"
+    "body": """
+    document.location.hostname
+    """
+  "port-> JS Location":
+    "prefix": "jslc-port"
+    "body": """
+    document.location.port
+    """
+  "pathname-> JS Location":
+    "prefix": "jslc-pathname"
+    "body": """
+    document.location.pathname
+    """
+  "search-> JS Location":
+    "prefix": "jslc-search"
+    "body": """
+    document.location.search
+    """
+
+
+
+  "URLSearchParams-> JS Location search":
+    "prefix": "jslcurlSearchParams"
+    "body": """
+    new URLSearchParams($1)
+    """
+  "URLSearchParams get-> JS Location search":
+    "prefix": "jslcurl get"
+    "body": """
+    get('$1')
+    """
+  "URLSearchParams getAll-> JS Location search":
+    "prefix": "jslcurl getall"
+    "body": """
+    getAll('$1')
+    """
+  "URLSearchParams append-> JS Location search":
+    "prefix": "jslcurl append"
+    "body": """
+    append('$1',$2)
+    """
+  "URLSearchParams set-> JS Location search":
+    "prefix": "jslcurl set"
+    "body": """
+    set('$1',$2)
+    """
+  "URLSearchParams has-> JS Location search":
+    "prefix": "jslcurl has"
+    "body": """
+    has('$1')
+    """
+  "URLSearchParams keys-> JS Location search":
+    "prefix": "jslcurl keys"
+    "body": """
+    keys()
+    """
+  "URLSearchParams toString-> JS Location search":
+    "prefix": "jslcurl toString"
+    "body": """
+    toString()
+    """
+  "URLSearchParams values-> JS Location search":
+    "prefix": "jslcurl values"
+    "body": """
+    values()
+    """
+
+  "URLSearchParams entries-> JS Location search":
+    "prefix": "jslcurl entries"
+    "body": """
+    entries()
+    """
+  "URLSearchParams delete-> JS Location search":
+    "prefix": "jslcurl delete"
+    "body": """
+    delete()
+    """

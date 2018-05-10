@@ -7,3 +7,18 @@
       $2
     });
     """
+  "target-> JS DOM":
+    "prefix": "jsde-target"
+    "body": """
+    target
+    """
+  "currentTarget-> JS DOM":
+    "prefix": "jsde-currentTarget"
+    "body": """
+    currentTarget
+    """
+  "preventDefault-> JS DOM":
+    "prefix": "jsde-preventDefault"
+    "body": """
+    preventDefault();
+    """

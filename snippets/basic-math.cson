@@ -1,0 +1,73 @@
+'.source.js':
+
+ "E-> JS Math":
+   "prefix": "jsmth-e"
+   "body": """
+   Math.E
+   """
+  "PI-> JS Math":
+    "prefix": "jsmth-pi"
+    "body": """
+    Math.PI
+    """
+  "SQRT1_2-> JS Math":
+    "prefix": "jsmth-SQRT1_2"
+    "body": """
+    Math.SQRT1_2
+    """
+  "SQRT2-> JS Math":
+    "prefix": "jsmth-SQRT2"
+    "body": """
+    Math.SQRT2
+    """
+
+  "min-> JS Math":
+    "prefix": "jsmth-min"
+    "body": """
+    Math.min($1)
+    """
+  "max-> JS Math":
+    "prefix": "jsmth-max"
+    "body": """
+    Math.max($1)
+    """
+  "ciel-> JS Math":
+    "prefix": "jsmth-ciel"
+    "body": """
+    Math.ceil($1)
+    """
+  "floor-> JS Math":
+    "prefix": "jsmth-floor"
+    "body": """
+    Math.floor($1)
+    """
+  "round-> JS Math":
+    "prefix": "jsmth-round"
+    "body": """
+    Math.round($1)
+    """
+  "power-> JS Math":
+    "prefix": "jsmth-pow"
+    "body": """
+    Math.pow($1,$2)
+    """
+  "sign-> JS Math":
+    "prefix": "jsmth-sign"
+    "body": """
+    Math.sign($1)
+    """
+  "squre root-> JS Math":
+    "prefix": "jsmth-sqrt"
+    "body": """
+    Math.sqrt($1)
+    """
+  "cube root-> JS Math":
+    "prefix": "jsmth-cbrt"
+    "body": """
+    Math.cbrt($1)
+    """
+  "absolute-> JS Math":
+    "prefix": "jsmth-abs"
+    "body": """
+    Math.abs($1)
+    """

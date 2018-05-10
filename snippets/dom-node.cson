@@ -15,6 +15,26 @@
     "body": """
     parentNode
     """
+  "firstChild-> JS DOM":
+    "prefix": "jsdn-firstChild"
+    "body": """
+    firstChild
+    """
+  "lastChild-> JS DOM":
+    "prefix": "jsdn-lastChild"
+    "body": """
+    lastChild
+    """
+  "firstElementChild-> JS DOM":
+    "prefix": "jsdn-firstElementChild"
+    "body": """
+    firstElementChild
+    """
+  "lastElementChild-> JS DOM":
+    "prefix": "jsdn-lastElementChild"
+    "body": """
+    lastElementChild
+    """
   "nextSibling-> JS DOM":
     "prefix": "jsdn-nextSibling"
     "body": """
@@ -59,4 +79,14 @@
     "prefix": "jsdn-insertBefore"
     "body": """
     insertBefore(new,selected)
+    """
+  "removeChild-> JS DOM":
+    "prefix": "jsdn-removeChild"
+    "body": """
+    removeChild($1)
+    """
+  "replaceChild-> JS DOM":
+    "prefix": "jsdn-replaceChild"
+    "body": """
+    replaceChild(new_node$1,old_node)
     """

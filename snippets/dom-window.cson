@@ -1,0 +1,21 @@
+'.source.js':
+    "window.open()-> JS DOM":
+      "prefix": "jsdw-open"
+      "body": """
+      window.open("url$1");
+      """
+    "window.open() slef-> JS DOM":
+      "prefix": "jsdw-openSelf"
+      "body": """
+      window.open('url$1', "_self");
+      """
+    "window.innerHeight-> JS DOM":
+      "prefix": "jsdw-innerHeight"
+      "body": """
+      window.innerHeight
+      """
+    "window.innerWidth-> JS DOM":
+      "prefix": "jsdw-innerWidth"
+      "body": """
+      window.innerWidth
+      """

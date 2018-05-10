@@ -1,0 +1,38 @@
+'.source.js':
+  "new Number-> JS Number":
+    "prefix": "jsn-new"
+    "body": """
+    new Number($1)
+    """
+  "valueOf-> JS Number":
+    "prefix": "jsn-valueOf"
+    "body": """
+    valueOf()
+    """
+
+  "isNaN-> JS Number":
+    "prefix": "jsnm-isNaN"
+    "body": """
+    isNaN($1)
+    """
+  "isFinite-> JS Number":
+    "prefix": "jsnn-isFinite"
+    "body": """
+    isFinite($1)
+    """
+
+  "parseInt-> JS Number":
+    "prefix": "jsnm-parseInt"
+    "body": """
+    parseInt($1)
+    """
+  "parseFloat-> JS Number":
+    "prefix": "js-parseFloat"
+    "body": """
+    parseFloat($1)
+    """
+  "toFixed-> JS Number":
+    "prefix": "js-toFixed"
+    "body": """
+    toFixed($1)
+    """

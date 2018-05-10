@@ -128,3 +128,8 @@
     "body": """
     document.querySelector('$1')
     """
+  "querySelectorAll-> JS DOM":
+    "prefix": "jsd-querySelectorAll"
+    "body": """
+    document.querySelectorAll('$1')
+    """

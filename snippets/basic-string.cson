@@ -1,0 +1,144 @@
+'.source.js':
+
+ "new String-> JS String":
+   "prefix": "jsst-new"
+   "body": """
+   new String('$1')
+   """
+
+  "length-> JS String":
+    "prefix": "jsst-length"
+    "body": """
+    length
+    """
+  "charAt-> JS String":
+    "prefix": "jsst-charAt"
+    "body": """
+    charAt($1)
+    """
+  "charCodeAt-> JS String":
+    "prefix": "jsst-charCodeAt"
+    "body": """
+    charCodeAt($1)
+    """
+  "charPointAt-> JS String":
+    "prefix": "jsst-charPointAt"
+    "body": """
+    charPointAt($1)
+    """
+  "concat-> JS String":
+    "prefix": "jsst-concat"
+    "body": """
+    concat($1)
+    """
+  "includes-> JS String":
+    "prefix": "jsst-includes"
+    "body": """
+    includes($1)
+    """
+  "endsWith-> JS String":
+    "prefix": "jsst-endsWith"
+    "body": """
+    endsWith($1)
+    """
+  "indexof-> JS String":
+    "prefix": "jsst-indexof"
+    "body": """
+    indexof($1)
+    """
+  "lastIndexOf-> JS String":
+    "prefix": "jsst-lastIndexOf"
+    "body": """
+    lastIndexOf($1)
+    """
+  "match-> JS String":
+    "prefix": "jsst-match"
+    "body": """
+    match($1)
+    """
+
+  "padEnd-> JS String":
+    "prefix": "jsst-padEnd"
+    "body": """
+    padEnd($1)
+    """
+  "padStart-> JS String":
+    "prefix": "jsst-padStart"
+    "body": """
+    padStart($1)
+    """
+  "repeat-> JS String":
+    "prefix": "jsst-repeat"
+    "body": """
+    repeat($1)
+    """
+  "search-> JS String":
+    "prefix": "jsst-search"
+    "body": """
+    search($1)
+    """
+  "slice-> JS String":
+    "prefix": "jsst-slice"
+    "body": """
+    slice($1)
+    """
+  "substr-> JS String":
+    "prefix": "jsst-substr"
+    "body": """
+    substr($1)
+    """
+  "substring-> JS String":
+    "prefix": "jsst-substring"
+    "body": """
+    substring($1)
+    """
+  "toUppercase-> JS String":
+    "prefix": "jsst-toUppercase"
+    "body": """
+    toUpperCase()
+    """
+  "toLowerCase-> JS String":
+    "prefix": "jsst-toLowerCase"
+    "body": """
+    toLowerCase()
+    """
+  "toLocaleLowerCase-> JS String":
+    "prefix": "jsst-toLocaleLowerCase"
+    "body": """
+    toLocaleLowerCase()
+    """
+  "toLocaleUpperCase-> JS String":
+    "prefix": "jsst-toLocaleUpperCase"
+    "body": """
+    toLocaleUpperCase()
+    """
+  "toString-> JS String":
+    "prefix": "jsst-toString"
+    "body": """
+    toString()
+    """
+  "trim-> JS String":
+    "prefix": "jsst-trim"
+    "body": """
+    trim()
+    """
+  "replace-> JS String":
+    "prefix": "jsst-replace"
+    "body": """
+    replace($1,$2)
+    """
+  "normalize-> JS String":
+    "prefix": "jsst-normalize"
+    "body": """
+    normalize()
+    """
+  "split-> JS String":
+    "prefix": "jsst-split"
+    "body": """
+    split()
+    """
+  "valueOf-> JS String":
+    "prefix": "jsst-valueOf"
+    "body": """
+    valueOf()
+    """

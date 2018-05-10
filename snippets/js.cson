@@ -1,23 +1,80 @@
 '.source.js':
 
-  "console-> JS DOM":
+  "console-> JS Basic":
     "prefix": "js-console"
     "body": """
     console.log($1)
     """
 
-  "var-> JS DOM":
+  "var-> JS Basic":
     "prefix": "js-var"
     "body": """
     var $1 = $2
     """
-  "let-> JS DOM":
+  "let-> JS Basic":
     "prefix": "js-let"
     "body": """
     let $1 = $2
     """
-  "const-> JS DOM":
+  "const-> JS Basic":
     "prefix": "js-const"
     "body": """
     const $1 = $2
+    """
+
+
+  "mode-> JS Basic":
+    "prefix": "js-mode"
+    "body": """
+    'use strict'
+    """
+  "strict mode-> JS Basic":
+    "prefix": "js-strict"
+    "body": """
+    'use strict'
+    """
+  "typeof-> JS Basic":
+    "prefix": "js-typeof"
+    "body": """
+    typeof
+    """
+  "delete-> JS Basic":
+    "prefix": "js-delete"
+    "body": """
+    delete
+    """
+  "instanceof-> JS Basic":
+    "prefix": "js-instanceof"
+    "body": """
+    instanceof
+    """
+  "in-> JS Basic":
+    "prefix": "js-in"
+    "body": """
+    $1 in u$2
+    """
+  "this-> JS Basic":
+    "prefix": "js-this"
+    "body": """
+    this
+    """
+  "void-> JS Basic":
+    "prefix": "js-void"
+    "body": """
+    void
+    """
+  "new-> JS Basic":
+    "prefix": "js-new"
+    "body": """
+    new
+    """
+  "super-> JS Basic":
+    "prefix": "js-super"
+    "body": """
+    super($1)
+    """
+  "return-> JS Basic":
+    "prefix": "js-return"
+    "body": """
+    return($1)
     """

@@ -1,0 +1,56 @@
+'.source.js':
+
+ "do-while-> JS Loop":
+   "prefix": "js-do"
+   "body": """
+   do {
+     $1
+   } while ($2);
+   """
+  "while-> JS Loop":
+    "prefix": "js-while"
+    "body": """
+    while ($1) {
+      $2
+    }
+    """
+  "for-> JS Loop":
+    "prefix": "js-for"
+    "body": """
+    for ($1; $2 ; $2) {
+      $3
+    }
+    """
+  "for...in-> JS Loop":
+    "prefix": "js-forin"
+    "body": """
+    for ($1 in yourData) {
+      $2
+    }
+    """
+  "for...of-> JS Loop":
+    "prefix": "js-forof"
+    "body": """
+    for ($1 of yourData) {
+      $2
+    }
+    """
+  ".forEach-> JS Loop":
+    "prefix": "js-forEach"
+    "body": """
+    $1.forEach (() => {
+      $2
+    })
+    """
+
+
+  "break-> JS Loop":
+    "prefix": "js-break"
+    "body": """
+    break
+    """
+  "continue-> JS Loop":
+    "prefix": "js-continue"
+    "body": """
+    continue
+    """
