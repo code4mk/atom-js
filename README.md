@@ -2,7 +2,7 @@
 
 # JavaScript Snippets Latest
 
-Now play with JS with Atom JavaScript snippets.
+Now play with JS , Atom JavaScript snippets.
 
 # guide
 
