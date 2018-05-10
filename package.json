@@ -1,0 +1,21 @@
+{
+  "name": "atom-js",
+  "version": "0.0.0",
+  "description": "JavaScript snippeta >> atom JavaScript by @code4mk",
+  "keywords": [
+    "js",
+    "JavaScript",
+    "dom",
+    "liveScript",
+    "code4mk"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/code4mk/atom-js"
+  },
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {}
+}
