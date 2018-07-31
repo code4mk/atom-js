@@ -78,3 +78,11 @@
     "body": """
     return($1)
     """
+  "comments-> JS Basic":
+    "prefix": "js-comment"
+    "body": """
+    /**
+     * this
+     * is comment
+     */
+    """
