@@ -2,6 +2,7 @@
   "name": "atom-js",
   "version": "1.2.0",
   "description": "JavaScript snippets >> atom JavaScript by @code4mk",
+  "main": "./lib/kamal.js",
   "keywords": [
     "js",
     "javascript",

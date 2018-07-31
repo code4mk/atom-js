@@ -66,10 +66,10 @@
     "body": """
     find($1)
     """
-  "finIndex-> JS Array":
-    "prefix": "jsar-finIndex"
+  "findIndex-> JS Array":
+    "prefix": "jsar-findIndex"
     "body": """
-    finIndex($1)
+    findIndex($1)
     """
   "forEach-> JS Array":
     "prefix": "jsar-forEach"
