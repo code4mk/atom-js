@@ -86,3 +86,10 @@
      * is comment
      */
     """
+    "setTimeout-> JS Basic":
+      "prefix": "js-setTimeout"
+      "body": """
+      setTimeout(() => {
+        $1
+      },1000)
+      """
